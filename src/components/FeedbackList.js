@@ -24,7 +24,7 @@ const FeedbackList = () => {
 
     const getAllFeedbacks = async () => {
         //const feedbacksData = await axios(`http://localhost:57798/api/feedbacks`);
-        const feedbacksData = await axios(`Book-Elas-1BGN3W0OCRXSM.eba-d24rbv4d.us-east-1.elasticbeanstalk.com/api/feedbacks`);
+        const feedbacksData = await axios(`http://www.Book-Elas-1BGN3W0OCRXSM.eba-d24rbv4d.us-east-1.elasticbeanstalk.com/api/feedbacks`);
         return await feedbacksData.data;
     }
 

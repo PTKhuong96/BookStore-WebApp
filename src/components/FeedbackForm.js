@@ -39,7 +39,7 @@ const FeedbackForm = () => {
     
 
         //await axios.post(`http://localhost:57798/api/feedbacks`, 
-        await axios.post(`Book-Elas-1BGN3W0OCRXSM.eba-d24rbv4d.us-east-1.elasticbeanstalk.com/api/feedbacks`, 
+        await axios.post(`http://www.Book-Elas-1BGN3W0OCRXSM.eba-d24rbv4d.us-east-1.elasticbeanstalk.com/api/feedbacks`, 
             {
                 type: parseInt(formInputValues.feedbackType),
                 description: formInputValues.feedbackDescription,
